@@ -1,0 +1,53 @@
+{
+  "blogs": [
+    {
+      "id": 1,
+      "title": "Apple iPhone 13 Pro Max ",
+      "author": "Apple.inc",
+      "publish": "12 Jan 2022",
+      "body": "iPhone 13 Pro Max has a 6.7-inch touchscreen display. A Hexa-Core Apple A15 processor runs iPhone 13 Pro Max. iPhone 13 Pro Max has 8GB RAM and 256GB of internal storage. iPhone 13 Pro Max has a 12MP + 12MP + 12MP+TOF Quad Rear Camera and a 12MP Dual Front camera for selfies. iPhone 13 Pro Max runs iOS 15. Buy iPhone 13 Pro Max Smartphone at the best price online from Phones & Tablets Nairobi Kenya iPhone 13 Pro Max is currently one of the latest flagship smartphones in the market. Although iPhone 13 Pro Max is almost the same as the iPhone 13 Pro, the Triple Rear Camera and the RAM make it a better choice. Unlike the iPhone 13, this phone has a bigger battery and will serve you more before you charge it again. With iPhone 13 Pro Max, you get a better version of the iPhone 13 Pro with a bigger battery, Quad rear camera, larger storage options, and great performance in General."
+    },
+    {
+      "id": 2,
+      "title": "Samsung Galaxy Note 22 ultra",
+      "author": "Samsung Electronics",
+      "publish": "5th Jan 2022",
+      "body": "Samsung was expected to discontinue the Galaxy Note lineup but as things stand, that’s not the case. The legacy phablet device now enters its 22nd generation, which also has an Ultra model. The latest Galaxy Note premium phone gets a 6.9-inch AMOLED display that supports 2K resolution at 1440x3088 pixels. The screen features a punch hole design and offers pixel density of 494 PPI. Galaxy Note 22 Ultra uses the latest flagship octa-core Exynos 9 Octa 990 chipset along with 12GB RAM to deliver high-end performance. The device comes with 128GB internal storage which is further expandable. For imaging purpose, this phone has a triple rear camera that includes 108MP primary sensor, 12MP ultra-wide-angle sensor, and 12MP telephoto sensor. On the front, the phone has a 10MP selfie camera that also supports video calls. Galaxy Note 22 Ultra gets backed up with a 5100mAh battery that supports 25W fast charging via USB Type C port. Other features on the phone include on-screen fingerprint sensor, face unlock, S Pen support and the Type C interface is for music streaming. Other premium Samsung mobiles you can buy include Samsung Galaxy S20 FE, Samsung Galaxy S21 Ultra and the Samsung Galaxy S21."
+    },
+    {
+      "id": 3,
+      "title": "Oppo Reno 7 Pro 5G",
+      "author": "Oppo Mobile Telecommunications Corp., Ltd.",
+      "publish": "24th July 2022 ",
+      "body": "The Oppo Reno 7 Pro 5G price in Kenya is around Ksh 58,920. The Reno 7 5G comes with a 6.55-inch touchscreen display with a resolution of 1080 x 2400 pixels and an aspect ratio of 20:9. It is powered by the MediaTek Dimensity 1200 Max 5G processor and runs Android 11  powered by a 4500mAh non-removable battery. It has an AMOLED screen of 90Hz refresh rate and an under-display fingerprint scanner across the board.\nIn the box you will be treated to a Silicon case, a type A to type C charging cable, and a 65W supercharger. The device comes in a few main color variants. You can pick it in Starlight Black, Startrails Blue, Gold, or League of Legends. But the two main colors are Starlight Black and Startrails Blue.\nThe Oppo Reno 7 Pro 5G looks absolutely phenomenal from all different angles because its backplate uses new LDI technology. An industry-first that uses 20 micro-sized fine textures, which gather up 1.2 micro rosters itched together. Here also is, we have OPPO’s signature glow, which uses micro-crystals to give it a shimmery and gradient finish. Once you pop the device on charge, you will notice an orbit breathing light that wraps around the camera module at the back. Some of its use cases are when receiving a call, a notification, or during charging."
+    },
+    {
+      "title": "",
+      "date": "",
+      "author": "",
+      "body": "",
+      "id": 4
+    },
+    {
+      "title": "",
+      "date": "",
+      "author": "",
+      "body": "",
+      "id": 5
+    },
+    {
+      "title": "asas",
+      "date": "aswqw",
+      "author": "asdas",
+      "body": "asdasd",
+      "id": 6
+    },
+    {
+      "title": "dsdf",
+      "date": "sdfse",
+      "author": "sdfe",
+      "body": "sdfe",
+      "id": 7
+    }
+  ]
+}
