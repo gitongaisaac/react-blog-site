@@ -1,8 +1,12 @@
+/* Font Imports */
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700&family=Taviraj:wght@200;300;400;500;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Uchen&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
 
+/* Root */
 :root {
+  /* ======== Colors ======== */
+  /* Grey */
   --grey-100: #f8fafc;
   --grey-200: #f1f5f9;
   --grey-300: #e2e8f0;
@@ -13,6 +17,7 @@
   --grey-800: #344256;
   --grey-900: #1e293b;
 
+  /* Complement */
   --complement-10: #fbfbfb;
   --complement-20: #f8f6f7;
   --complement-30: #f4f2f3;
@@ -35,16 +40,18 @@
   --faded-800: #5f2a26;
   --faded-900: #2f1513;
 
+  /* Others */
   --primary-color: #f1356d;
-
   --dark-color: #000000;
   --light-color: #fff;
   --text-color: var(--dark-color);
   --background-color: var(--complement-10);
 
+  /* Fonts */
   --font-1: "nunito", sans-serif;
   --font-2: "Lato", sans-serif;
 
+  /* Box-shadows */
   --shadow-1: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
   --shadow-2: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
     0 2px 4px -1px rgba(0, 0, 0, 0.06);
@@ -54,6 +61,7 @@
     0 10px 10px -5px rgba(0, 0, 0, 0.04);
 }
 
+/* Typography */
 ::-webkit-scrollbar {
   width: 8px;
   height: 8px;
@@ -92,6 +100,21 @@ ul {
   list-style-type: none;
 }
 
+/* Buttons */
+.btn {
+  border: none;
+  padding: 10px 30px;
+  margin: 10px 20px;
+  border-radius: 5px;
+  border-radius: 2px;
+  transition: transform 0.4s ease-in;
+}
+
+.btn:hover {
+  transform: scale(0.94);
+}
+
+/* Containers */
 .app-container {
   font-family: var(--font-1);
   font-size: 1rem;
@@ -104,6 +127,7 @@ ul {
   padding: 10px;
 }
 
+/* Navbar */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -138,10 +162,12 @@ ul {
   border-bottom: 2px solid var(--primary-color);
 }
 
+/* Home */
 .home {
   margin: 20px 0;
 }
 
+/* Blog-list */
 .blogs {
   margin: 20px;
   padding: 5px;
@@ -151,14 +177,18 @@ ul {
 
 .blogs h2 {
   color: var(--primary-color);
+  transition: 0.3s;
 }
 
-.spin {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.blogs h2:hover {
+  color: var(--faded-500);
 }
 
+.trash {
+  cursor: pointer;
+}
+
+/* Blog details */
 .blog-detail .title {
   color: var(--primary-color);
 }
@@ -178,12 +208,45 @@ ul {
   padding: 10px 10px 10px 20px;
 }
 
-.footer {
+/* Buttons */
+.blog-list .buttons {
   display: flex;
-  justify-content: center;
-  margin-top: 2rem;
+  align-items: center;
+  gap: 30px;
 }
 
+.blog-list .edit {
+  position: relative;
+  bottom: -7px;
+}
+
+.details .buttons {
+  margin-top: 1rem;
+}
+
+.btn-edit {
+  background-color: var(--faded-500);
+  color: var(--light-color);
+  padding: 5px 30px;
+}
+
+.btn-delete {
+  background-color: red;
+  color: var(--light-color);
+  padding: 8px 30px;
+}
+
+.btn-add {
+  background-color: var(--faded-500);
+  color: var(--light-color);
+}
+
+.about h2 {
+  margin-bottom: 1rem;
+  color: var(--faded-500);
+}
+
+/* New Blog */
 .form {
   max-width: 450px;
   margin: 50px;
@@ -222,31 +285,16 @@ ul {
   font-family: var(--font-1);
 }
 
-.btn {
-  border: none;
-  padding: 10px 20px;
-  margin: 10px 20px;
-  background-color: var(--faded-500);
-  color: var(--light-color);
-  border-radius: 2px;
-  transition: transform 0.4s ease-in;
-}
-
-.btn:hover {
-  transform: scale(0.94);
-}
-
-.details .btn {
+.footer {
+  display: flex;
+  justify-content: center;
   margin-top: 2rem;
-  margin-bottom: 0px;
-  background-color: red;
-  border-radius: 5px;
-  text-align: right;
 }
 
-.about h2 {
-  margin-bottom: 1rem;
-  color: var(--faded-500);
+.spin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .loading {

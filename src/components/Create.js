@@ -1,3 +1,4 @@
+/* Dependancies and component imports */
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
@@ -9,20 +10,21 @@ const Create = () => {
   const [body, setBody] = useState("");
   const navigate = useNavigate();
 
-  /* Objects */
+  /* Variables and Objects */
   const url = "http://localhost:8000/blogs";
   const blog = { title, date, author, body };
+  const reqOps = {
+    method: "POST",
+    body: JSON.stringify(blog),
+    headers: { "Content-Type": "application/json" },
+  };
 
   /* AddBlog function */
   const addBlog = (e) => {
     e.preventDefault();
 
     // POST Request
-    fetch(url, {
-      method: "POST",
-      body: JSON.stringify(blog),
-      headers: { "Content-Type": "application/json" },
-    })
+    fetch(url, reqOps)
       .then((res) => {
         if (res.ok) {
           setTitle("");
@@ -91,7 +93,7 @@ const Create = () => {
           ></textarea>
         </div>
 
-        <button className="btn">Add Blog</button>
+        <button className="btn btn-add">Add Blog</button>
       </form>
     </div>
   );

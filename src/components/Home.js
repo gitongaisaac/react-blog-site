@@ -1,3 +1,4 @@
+/* Dependancies and component imports */
 import useFetch from "../hooks/useFetch";
 import Blogs from "./Blogs";
 import Loading from "./Loading";
@@ -13,7 +14,9 @@ const Home = () => {
   return (
     <div className="home">
       {error && <NotFound error={error} />}
+
       {pending && <Loading />}
+
       {blogs && <Blogs blogs={blogs} />}
     </div>
   );
