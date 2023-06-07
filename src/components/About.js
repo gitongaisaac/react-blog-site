@@ -3,14 +3,14 @@ const About = () => {
     <div className="about">
       <h2>About us</h2>
       <p>
-        Phone-hub was created by Izzy on August 20th 2014 to provide important
-        news on the latest phone gadgets in the world, to provide information
-        from direct the manufucturer. It is managed and maintained by a group of
-        people who see to it that information provided on this blog is true and
-        can be verified from straight the source.
+        Know-hub was created by g-creators on August 20th 2014 to provide
+        important news on the latest phone gadgets in the world, to provide
+        information from direct the manufucturer. It is managed and maintained
+        by a group of people who see to it that information provided on this
+        blog is true and can be verified from straight the source.
         <br />
         <br />
-        Phone-hub.com is a website dedicated to providing you with the latest
+        Know-hub.com is a website dedicated to providing you with the latest
         news on the latest phones. We provide you with information that is
         helpful in order for you to be able to choose the best phone products in
         the market. Our information is first hand information which is not
